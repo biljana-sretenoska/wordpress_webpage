@@ -1,0 +1,32 @@
+/*
+Theme name:Old Timers
+Author: Biljana
+*/
+
+
+body{
+    background-color: black;
+   
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    width: 100%; 
+    right: 0px;
+    height: 100px;
+    font-family: 'Lato', sans-serif;
+
+}
+#heading{
+    font-family: 'Diplomata', cursive;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    width: 100%; 
+    right: 0px;
+    height: 100px;
+    font-family: 'Lato', sans-serif;
+}
