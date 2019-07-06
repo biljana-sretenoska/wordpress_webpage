@@ -13,13 +13,14 @@
 <header class="sticky-top">
     <?php wp_head(); ?>
     <div class="container">
-    <?php 
-        wp_nav_menu( array('theme_location' => 'header-menu',
-        'menu_class' => 'navbar navbar-light" style="background-color: #e3f2fd;'
-    ));
-     
-  
+   
+      
+      <?php 
+        wp_nav_menu( array('theme_location' => 'header-menu'));      
+      ?>              
+    
 
-    ?>
+  </div>     
 
 </header>
+

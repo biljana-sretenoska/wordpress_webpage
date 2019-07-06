@@ -2,31 +2,188 @@
 Theme name:Old Timers
 Author: Biljana
 */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     background-color: black;
-   
+    color: #c1bbbb;
+    
+}
+h2,h4{
+    font-family: 'Lato', sans-serif;
+    color: #12b0bb; 
+    font-size: 24px;
+}
+h1{
+    font-family: 'Diplomata', cursive;
+    color: #12b0bb;
+    font-size: 25px;
 }
 header {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center; 
-    width: 100%; 
-    right: 0px;
+    width: 130%;     
     height: 100px;
     font-family: 'Lato', sans-serif;
 
 }
-#heading{
+.heading_text{
     font-family: 'Diplomata', cursive;
+    font-size: 60px;
+    font-kerning: normal;
 }
-footer{
+.footer{
     display: flex;
-    justify-content: flex-end;
-    align-items: center; 
-    width: 100%; 
-    right: 0px;
+    justify-content: center;
+    align-items: flex-end; 
+    width: 100%;    
     height: 100px;
     font-family: 'Lato', sans-serif;
+    margin-bottom: -500px;
+}
+#menu-header{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+#menu-header menu{
+    float: left; 
+    padding: 50px;   
+    list-style-type: none;
+    
+}
+#menu-header ,menu, a{
+    padding: 10px;
+    list-style-type: none;
+}
+#menu-item, a:hover{
+    padding: 10px;
+    list-style-type: none;
+   
+    border-bottom: 1px solid #aab152;
+   
+}
+#menu-footer{
+    float: left; 
+    padding: 50px;
+    right: -100px;
+}
+#menu-footer {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+  
+}
+
+#menu-footer ,menu, a{
+    padding: 10px;
+    padding-bottom: -300px;
+    color:#c1bbbb;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+#menu-footer ,menu, a:hover{
+    text-decoration: none;
+    color: #c1bbbb;
+}
+.wp-block-cover{
+   height: 700px; 
+   margin-top: -100px;
+}
+.wp-block-media-text h3{
+    font-family: 'Diplomata', cursive;
+    font-size: 45px;
+    padding-bottom: 20px;
+    margin-top: 150px; 
+}
+#wpforms-submit-102, #wpforms-102-field_1,
+#wpforms-102-field_0, #wpforms-102-field_0-last,
+#wpforms-102-field_4{
+    border-radius: 11px;
+    background-color: #c1bbbb;
+    border: 3px solid #12b0bb;
+}
+.post-categories li{
+   margin-top: -50px;   
+}
+
+
+.title h2{
+    margin-top: 15px;
+}
+
+
+.more-link{
+   background-color: aqua;
+   border: 1 px solid aqua;
+   color: black;
+}
+.wrapper{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    align-content: center;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+.aligncenter img{
+    left: 0px;
+}
+
+.wp-block-media-text__content a{
+ color: #c1bbbb;
+ margin-bottom: 25px !important;
+ 
+}
+.wp-block-media-text__media{
+ position: relative;
+ margin: 10% auto;
+}
+.link{
+    position: relative;
+    float: right;
+    color:#12b0bb;
+} 
+.card {
+    margin: 30px;
+}
+.card-group{
+
+display: flex;
+flex-direction: column;
+margin: 50px auto;
+justify-content: center;
+align-content: center;
+}
+.custom h5{
+display: flex;
+flex-direction: row;
+margin: 10px;
+padding: 15px;
+font-size: 16px;
+justify-content: space-between;
+align-content: space-around;
+}
+.post-categories li{
+    list-style-type: none;
+    visibility: hidden;
+    
+}
+.card-deck{
+   width: 40%;
+    margin: 20px auto;
+}
+p, h5 {
+    color: rgb(32, 31, 31);
 }
