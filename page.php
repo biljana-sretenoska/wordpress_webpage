@@ -16,8 +16,7 @@
         <p>
             <?php the_content(); ?>
         </p>
-      
-       
+        
     <?php endwhile;?>
 <?php endif;?>
 

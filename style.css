@@ -1,5 +1,5 @@
 /*
-Theme name:Old Timers
+Theme name:The Cats
 Author: Biljana
 */
 *{
@@ -8,21 +8,23 @@ Author: Biljana
 }
 
 body{
-    background-color:#FEBFBB;   
+    background-color: black;   
     /* color: #c1bbbb;     */
 }
 
 h2,h3,h4,h5{
     font-family: 'Lato', sans-serif; 
-    color: #313131;
+    color: #EAEEF2;
 }
-h1{
+.wp-block-cover h1{
    padding: 15px;
-    font-size: 45px;
-    color:#05A678
+    font-size: 90px;
+    color:#FFF800;
+    margin-top: 200px;
 }
 
 p{ 
+    color: #EAEEF2;
     font-size: 18px;
 }
 header {
@@ -35,11 +37,11 @@ header {
     font-family: 'Lato', sans-serif;
 
 }
-/* .heading_text{
-    font-family: 'Diplomata', cursive;
+.heading_text{
+    
     font-size: 60px;
     font-kerning: normal;
-} */
+}
 .footer{
     display: flex;
     justify-content: space-around;
@@ -54,7 +56,7 @@ header {
     flex-wrap: wrap;
     justify-content: flex-end;
     overflow: hidden;
-    background-color:#FEBFBB;     
+    background-color:black;     
 }
 #menu-header menu{
     float: left; 
@@ -89,14 +91,14 @@ header {
 #menu-footer ,menu, a{
     padding: 10px;
     padding-bottom: -300px;
-    color: #313131;
+    color: #EAEEF2;
     text-decoration: none;
     margin-top: 20px;
 
 }
 #menu-footer ,menu, a:hover{
     text-decoration: none;
-    color:#1F1FFF;
+    color:#6394BF;
   
 }
 .post-categories li{
@@ -131,15 +133,7 @@ header {
     background-color: black;
 }
 
-.wp-block-cover h1 {
-    margin:auto;
-    color:#12b0bb;
-}
 
-/* .wp-block-image img {   
-  width: 70%;
-
-}  */
 .fixed-top {
     top:0px;
     padding: 5px;
@@ -153,25 +147,49 @@ header {
      width: 60%; 
     margin:200px auto;
 }  
-#wpforms-submit-102{
-    border-radius: 15px;
-    background-color: #8C203D;
-    color: azure;
-}
-/* .btn a:hover {  
-    border:none;    
-} */
+
 .container-fluid{
     margin: 100px auto;
 }
  
 .wp-block-button__link {
-    background-color: #07D99D;
+   color: #EAEEF2;
 }
-.btn {  
-   background-color: #8C203D;   
-}
+
 .navbar {
 
-    background-color:#FEBFBB;
+    background-color: black;
+}
+.list-group-item{
+    color: #414141;
+    background-color: black;
+    border: none;
+}
+.list-group {
+    background-color: black;
+}
+.btn{
+    background-color: #213959;
+}
+.name, .email, .message{
+    color:#EAEEF2;
+
+    background-color: rgb(110, 40, 75);
+}
+#wpforms-submit-873{
+    border-radius: 15px;
+    height: 45px;
+    font-size: large;
+    color:#EAEEF2;
+    background-color: rgb(110, 40, 75);
+    border: none;
+}
+#wpforms-confirmation-873{
+    color: #6394BF;
+    background-color:black;
+
+}
+#wpforms-873-field_3, #wpforms-873-field_1, #wpforms-873-field_1-last,#wpforms-873-field_2 {
+
+background-color: #8C8A8B;
 }
