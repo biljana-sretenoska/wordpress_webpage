@@ -16,8 +16,9 @@
       <div class="card-body">
         <h5 class="card-title text-secondary"><?php the_title();?></h5>
         <p class="card-text"><?php the_excerpt();?></p>
-    
-        <a href="<?php the_permalink();?>" class="btn btn-info">Read more...</a>
+        <a href="http://localhost/web_page/home/contact-us/" class="btn btn-info">Buy this cat...</a>
+        <a href="<?php the_permalink();?>" class="btn btn-outline-info">Read more...</a>
+        
       </div>
     </div>
   </div>

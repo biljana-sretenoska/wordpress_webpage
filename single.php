@@ -13,6 +13,9 @@
     
 
       <p ><?php the_content(); ?></p>
+     
+
+
 
       <ul class="list-group list-group-flush">
       <li class="list-group-item"><?php get_template_part('template-parts/content/custom'); ?>    
